@@ -1,0 +1,172 @@
+/*
+style.css
+---------
+Par Lucas Marcialis
+Pour bashedgroove.fr
+*/
+*
+{
+	font-family: "Helvetica", "Open Sans", "Arial";
+}
+body
+{
+	background-color:#E9EBEE;
+	width: 960px;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+}
+p
+{
+	color: gray;
+	font-size:1em;
+	text-align:justify;
+	padding:20px;
+}
+span
+{
+	color:black;
+	font-weight:bold;
+}
+strong
+{
+	font-size:1.2em;
+}
+p.intro-titre
+{
+	font-style:italic;
+	margin: 2px;
+}
+.bienvenue
+{
+	font-style: bold
+}
+h1, h2, h3, h4, h5, h6
+{
+	display:block;
+	text-align:center;
+}
+h1
+{
+	letter-spacing: 2px;
+	text-transform:uppercase;
+}
+div.img.bloc-notes
+{
+	vertical-align: middle;
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+}
+figcaption
+{
+	text-align:center;
+	text-decoration:overline;
+}
+div.header-logo
+{
+	background-color: black;
+}
+img#header-logo
+{
+	width:300px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+nav
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 500px gray;
+}
+nav ul
+{
+	list-style-type: none;
+	background-color:black;
+	height:46px;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	border-radius:3px;
+}
+li
+{
+	float:left;
+	width:25%;
+}
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight:bold;
+}
+li a:hover
+{
+	background-color:gray;
+	color:white;
+	border-radius:3px;
+    padding: 14px 16px;
+}
+div.corps-home
+{
+	color:black;
+	background-color:white;
+	border : 1px solid;
+	border-color:#dddfe2;
+	border-radius: 4px;
+	margin-bottom:20px;
+	padding: 10px;
+}
+footer ul
+{
+	list-style-type: none;
+	background-color:black;
+	height:46px;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	border-radius:3px;
+}
+ul.evenements
+{
+	display:;
+	list-style: none;
+	color:black;
+	height:46px;
+	margin:auto;
+	text-align: center;
+	overflow:hidden;
+}
+a.events
+{
+	display:block;
+	background-color:black;
+	color:white;
+}
+a.events:hover
+{
+	background-color:gray;
+	color:white;
+	border-radius:0px;
+    padding: 14px 16px;
+}
+
+a.media-telecharge
+{
+	display:block;
+	text-decoration:none;
+	margin:auto;
+	padding:14px 16px;
+	color:white;
+	background-color:black;
+	width:170px;
+	border-radius:3px;
+}
+a.media-telecharge:hover
+{
+	background-color:gray;
+}
